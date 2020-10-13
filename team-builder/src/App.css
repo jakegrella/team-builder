@@ -34,3 +34,45 @@
 		transform: rotate(360deg);
 	}
 }
+
+/* Form */
+form {
+  margin: 2%;
+  border: 2px solid #282c34;
+  padding: 4%;
+}
+
+.form-fields {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.form-line {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 2%;
+  justify-content: space-between;
+}
+
+label {
+  font-size: 20px;
+  padding-right: 4%;
+  white-space: nowrap;
+}
+
+/* team member */
+
+.team-member {
+  margin: 2%;
+  border-bottom: 1px solid #282c34;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.team-member h2,h3,p{
+  margin: 1%;
+}
+
+

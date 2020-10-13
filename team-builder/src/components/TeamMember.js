@@ -8,9 +8,9 @@ export default function TeamMember(props) {
     }
 
     return (
-        <div>
+        <div className='team-member'>
             <h2>{details.name}</h2>
-            <h2>Job Title: {details.jobTitle}</h2>
+            <h3>Job Title: {details.jobTitle}</h3>
             <p>Email: {details.email}</p>
             <p>Location: {details.location}</p>
         </div>

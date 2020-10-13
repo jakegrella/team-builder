@@ -15,7 +15,27 @@ const initialFormValues = {
 
 export default function App() {
 	//initialize state
-	const [teamMembers, setTeamMembers] = useState([]);
+  const [teamMembers, setTeamMembers] = 
+  useState([
+    {
+      name: 'Jake Grella',
+      email: 'jake-grella@lambdastudents.com', 
+      jobTitle: 'CEO',
+      location: 'Headquarters (Chicago)'
+    },
+    {
+      name: 'Josh Grella',
+      email: 'josh-grella@notanlsstudent.com', 
+      jobTitle: 'CFO',
+      location: 'West Coast (Santa Monica)'
+    },
+    {
+      name: 'Jake Grella',
+      email: 'jake-grella@lambdastudents.com', 
+      jobTitle: 'CEO',
+      location: 'Headquarters (Chicago)'
+    },
+  ]);
 
 	//initialize state for form values
 	const [formValues, setFormValues] = useState(initialFormValues);
